@@ -16,9 +16,9 @@ single desktop
 
 ```
 
-OpenMP Parallelisation  
+## OpenMP Parallelisation  
 
-Algorithm
+#### Algorithm
 
 ```
 ● Allocate dynamic memory using malloc() with the size(N × N ×size of float) for A (mat1) , B
@@ -47,7 +47,7 @@ with a stopwatch by its definition.
 
 
 ```
-Conclusions
+#### Conclusions
 
 ```
 ● As the dimension of matrices increases, the time tocompute increases as shown in the figure 1
@@ -59,9 +59,11 @@ speedup observed
 ![](Mat_Mul_Triangle/images/image2.png) 
 ![](Mat_Mul_Triangle/images/image9.png) 
 
-MPI Parallelisation
+![](Mat_Mul_Triangle/images/image3.png "horizontal line")
 
-Algorithm
+## MPI Parallelisation
+
+#### Algorithm
 
 ```
 ● DefiningstripsizeasN/number of nodeswhich correspondsto dividing matrices row wise
@@ -103,7 +105,7 @@ their parts (stripsize) of computed results to parentas partial result C.
 ● Display matrices and results for N<10 to check forlogic correctness.
 
 ```
-Conclusions
+####  Conclusions
 
 ```
 ● As the dimension of matrices increases, the time tocompute increases as shown in the figure 3.
@@ -118,8 +120,9 @@ nodes in triangularisation algorithm.
 
 ![](Mat_Mul_Triangle/images/image7.png) 
 ![](Mat_Mul_Triangle/images/image8.png) 
+![](Mat_Mul_Triangle/images/image3.png "horizontal line")
 
-CPU Info and running attached code
+#### CPU Info and running attached code
 
 
 ```
@@ -152,10 +155,11 @@ $ mpicc HW2_MPI.c -o MPI.out
 $ time mpirun -np 8 ./MPI.out 1000
 
 ```
-For ijk looping in Multiplication    
+![](Mat_Mul_Triangle/images/image3.png "horizontal line")
+#### For ijk looping in Multiplication    
 ![](Mat_Mul_Triangle/images/image4.png) 
 ![](Mat_Mul_Triangle/images/image5.png) 
 ![](Mat_Mul_Triangle/images/image6.png) 
 ![](Mat_Mul_Triangle/images/image1.png) 
-
+![](Mat_Mul_Triangle/images/image3.png "horizontal line")
 

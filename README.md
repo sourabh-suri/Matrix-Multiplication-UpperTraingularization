@@ -1,4 +1,4 @@
-![](images/image3.png "horizontal line")
+![](Mat_Mul_Triangle/images/image3.png "horizontal line")
 
 ## Computing C = A×B & Transforming C to upper Δ
 
@@ -57,7 +57,8 @@ the parallelisation overheads can be observed forN<500 since there isn’t signi
 speedup observed.
 ● Ikj looping is faster as can be compared from Table-1and Table-3 (At the last of report).
 ```
-
+![](Mat_Mul_Triangle/images/image2.png) 
+![](Mat_Mul_Triangle/images/image9.png) 
 
 MPI Parallelisation
 
@@ -118,6 +119,8 @@ nodes in triangularisation algorithm.
 ● Ikj looping is faster as can be compared from Table-2and Table-4(At the last of report).
 ```
 
+![](Mat_Mul_Triangle/images/image7.png) 
+![](Mat_Mul_Triangle/images/image8.png) 
 
 CPU Info and running attached code
 
@@ -152,6 +155,10 @@ $ mpicc HW2_MPI.c -o MPI.out
 $ time mpirun -np 8 ./MPI.out 1000
 
 ```
-
+For ijk looping in Multiplication    
+![](Mat_Mul_Triangle/images/image4.png) 
+![](Mat_Mul_Triangle/images/image5.png) 
+![](Mat_Mul_Triangle/images/image6.png) 
+![](Mat_Mul_Triangle/images/image1.png) 
 
 

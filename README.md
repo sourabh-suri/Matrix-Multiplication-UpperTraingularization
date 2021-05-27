@@ -50,12 +50,11 @@ with a stopwatch by its definition.
 Conclusions
 
 ```
-● As the dimension of matrices increases, the time tocompute increases as shown in the
-table-1 and figure 1.
+● As the dimension of matrices increases, the time tocompute increases as shown in the figure 1
 ● As the dimension of matrices increases, the speedupincreases as shown in figure 2. Also,
 the parallelisation overheads can be observed forN<500 since there isn’t significant
-speedup observed.
-● Ikj looping is faster as can be compared from Table-1and Table-3 (At the last of report).
+speedup observed
+● Ikj looping is faster as can be compared from figures the last of readme file.
 ```
 ![](Mat_Mul_Triangle/images/image2.png) 
 ![](Mat_Mul_Triangle/images/image9.png) 
@@ -107,16 +106,14 @@ their parts (stripsize) of computed results to parentas partial result C.
 Conclusions
 
 ```
-● As the dimension of matrices increases, the time tocompute increases as shown in the
-table and figure 3.
+● As the dimension of matrices increases, the time tocompute increases as shown in the figure 3.
 ● As the dimension of matrices increases, the speedupincreases as shown in figure 4. Also,
 the parallelisation overheads can be observed forN<500 since there isn’t significant
 speedup observed.
-● From Table-1 &2 it can be observed that timings forMPI and OpenMP are almost similar.
+● It can also be observed that timings forMPI and OpenMP are almost similar.
 However, OpenMP parallelisation for the given problemstatement and solution
 developed is little better than MPI because of toomuch data/message passing between
 nodes in triangularisation algorithm.
-● Ikj looping is faster as can be compared from Table-2and Table-4(At the last of report).
 ```
 
 ![](Mat_Mul_Triangle/images/image7.png) 
